@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoPlayRecyclerView">
+        <attr name="autoTurningTime" format="integer" />
+        <attr name="direction" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="canLoop" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerCreator">
+
+        <attr name="turningTime" format="integer" />
+    </declare-styleable>
+</resources>
